@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub RepoLister</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&family=Oleo+Script&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico?v=2">
+    <!-- <a style="color: rgb(34,39,46); z-index: -10; overflow: hidden; position: absolute;" href="https://www.vecteezy.com/free-vector/website-background">Website Background Vectors by Vecteezy</a> -->
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <h5 style="color: #CDD9E5;">
+                GitHub Repo Lister
+            </h5>
+        </div>
+    </nav>
+    <div class="left-container">
+        <form action="" id="username-form" autocomplete="off">
+            <h1 style="color: #FFFFFF; font-family: 'Kanit', sans-serif; font-size: 4rem;">Search GitHub Repositories <br> by username</h1>
+            <div class="form-group">
+                <input type="text" class="form-control" id="search" style="display: inline-block; width: 35%;" placeholder="Search Username" required>
+                <button class="btn btn-success" style="margin-left: 3%; margin-top: -1%;">Search </button>
+            </div>
+        </form>
+    </div>
+    <!-- <div class="container-fluid mt-4">
+        <div class="row justify-content-left"> -->
+            <div id='repolist' style="z-index: 100;">
+            </div>
+        <!-- </div>
+    </div> -->
+    <script src="index.js"></script>
+</body>
+<!-- <script src="three.js"></script> -->
+
+</html>

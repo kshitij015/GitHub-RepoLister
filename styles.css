@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Oleo+Script&display=swap');
+
+body{
+    /* background: #2D333B; */
+    /* background-image:url("UI_IX_Design_v1_generated.jpg"); */
+    /* background: linear-gradient(to bottom right,#042E6D,#040D21,#481F49); */
+    background: radial-gradient( circle at top left, #042E6D -10%, #040D21 50%, #481F49 150%) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;   
+    background-size: cover;
+}
+
+.navbar{
+    background: rgb(34,39,46);
+}
+
+.left-container{
+    margin-left: 5%;
+    width: 50%;
+}
+
+#username-form{
+    margin-top: 5%;
+}
+
+#repolist{
+    margin-left: 5%;
+    height: 50%;
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #040D21;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 ;
+    transition: 0.3s;
+    padding: 1%;
+    margin: 1%;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 2px 8px 0 #92BCFF;
+}
