@@ -21,7 +21,7 @@ body{
 }
 
 .left-container{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     width: 50%;
 }
 
@@ -30,12 +30,20 @@ body{
 }
 
 #repolist{
-    margin-left: 5%;
+    /* margin-left: 5%; */
     height: 50%;
-    width:50%;
+    width:100%;
     display: flex;
     flex-wrap: wrap;
 }
+
+/* .float-container {
+} */
+
+/* .float-child {
+    width: 100%;
+    float: left;
+} */
 
 .card{
     background-color: #040D21;
@@ -43,7 +51,10 @@ body{
     box-shadow: 0 4px 8px 0 ;
     transition: 0.3s;
     padding: 1%;
-    margin: 1%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    width: 50%;
 }
 
 .card:hover {
